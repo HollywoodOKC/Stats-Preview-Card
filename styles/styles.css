@@ -1,0 +1,12 @@
+body {
+  background-color: hsl(233,47%,7%);
+  font-size: 15px;
+}
+
+.container {
+  color: hsl(0,0%,100%);
+  background-color: hsl(244,38%,16%);
+}
+.insights {
+  color: hsl(277,64%,61%);
+}
