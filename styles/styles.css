@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Inter;
+  src: url(https://fonts.google.com/specimen/Inter);
+}
+
+@font-face {
+  font-family: Lexend Deca;
+  src: url(https://fonts.google.com/specimen/Lexend+Deca);
+}
+
 body {
   background-color: hsl(233,47%,7%);
   font-size: 15px;
@@ -38,17 +48,17 @@ img {
 }
 
 .product-text {
+  font-family: Inter;
   height: 300px;
-  width: 400px;;
+  width: 400px;
 }
 
 .product-text h1 {
   margin: 0 0 0 38px;
-  padding-top: 52px;
   font-size: 34px;
   color: hsl(0,0%,100%);
 }
 
-.attribution {
-  color: white;
+.information {
+  color: hsla(0, 0%, 100%, 0.75);
 }
