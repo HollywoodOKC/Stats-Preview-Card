@@ -12,7 +12,6 @@ body {
 .card {
   color: hsl(0,0%,100%);
   background-color: hsl(244,38%,16%);
-  box-shadow: 5px 5px 5px #777777;
   text-align:center;
   border-radius: 5px;
   overflow: hidden;
@@ -48,4 +47,8 @@ img {
   padding-top: 52px;
   font-size: 34px;
   color: hsl(0,0%,100%);
+}
+
+.attribution {
+  color: white;
 }
