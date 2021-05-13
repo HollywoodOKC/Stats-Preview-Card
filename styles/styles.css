@@ -5,7 +5,7 @@ body {
 
 .card {
   height: 400px;
-  max-width: 1440px;
+  max-width: 1240px;
   margin:auto;
   text-align: left;
   background-color: hsl(244, 38%, 16%);
@@ -14,6 +14,8 @@ body {
 }
 
 img {
+  filter: inherit;
+  filter: opacity(50%);
   float:right;
   width: 50%;
   height: 100%;
@@ -25,17 +27,25 @@ img {
 }
 
 h1 {
-  color: white
+  color: white;
 }
 
 #second {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-#tenk, #three, #onetwo {
+.numbers {
   color: hsl(0, 0%, 100%);
 }
 
 .stats {
+  display: grid;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.stats > div {
   color: hsla(0, 0%, 100%, 0.6);
 }
