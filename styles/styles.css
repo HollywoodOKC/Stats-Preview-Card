@@ -31,3 +31,11 @@ h1 {
 #second {
   color: hsla(0, 0%, 100%, 0.75);
 }
+
+#tenk, #three, #onetwo {
+  color: hsl(0, 0%, 100%);
+}
+
+.stats {
+  color: hsla(0, 0%, 100%, 0.6);
+}
