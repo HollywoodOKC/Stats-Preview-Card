@@ -49,3 +49,6 @@ h1 {
 .stats > div {
   color: hsla(0, 0%, 100%, 0.6);
 }
+.container {
+  padding: 50px;
+}
