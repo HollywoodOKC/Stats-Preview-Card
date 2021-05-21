@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media all and (max-width: 375px) {
 
 body {
     background-color: hsl(233, 47%, 7%);
