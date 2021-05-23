@@ -6,8 +6,7 @@ body {
 }
 
 .card {
-  height: 400px;
-  max-width: 1240px;
+  height: 150px;
   margin:auto;
   text-align: left;
   background-color: hsl(244, 38%, 16%);
@@ -53,6 +52,6 @@ h1 {
 }
 
 .container {
-  padding: 50px;
+  padding: 25px;
 }
 }
