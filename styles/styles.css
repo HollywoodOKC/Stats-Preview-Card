@@ -13,21 +13,6 @@ body {
   border-radius: 7px 7px 7px 7px;
 }
 
-@media (max-width: 375px) {
-  .card {
-    height: 100px;
-    width: 200px;
-  }
-
-  .stats {
-    display: grid;
-    align-content: space-evenly;
-    grid-template-columns: auto auto auto;
-    grid-gap: 5px;
-    padding: 5px;
-  }
-}
-
 img {
   float: right;
   width: 50%;
@@ -67,4 +52,19 @@ h1 {
 
 .container {
   padding: 50px;
+}
+
+@media (max-width: 375px) {
+  .card {
+    height: 100px;
+    width: 200px;
+  }
+
+  .stats {
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    padding: 5px;
+  }
 }
