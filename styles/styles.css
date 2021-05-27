@@ -58,6 +58,8 @@ h1 {
   .card {
     height: 200px;
     width: 300px;
+    margin: auto;
+    text-align: left;
   }
 
   .stats {
