@@ -57,7 +57,7 @@ h1 {
 @media (max-width: 375px) {
   .card {
     height: 100px;
-    width: 200px;
+    width: 375px;
   }
 
   .stats {
