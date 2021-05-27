@@ -54,7 +54,7 @@ h1 {
   padding: 50px;
 }
 
-@media screen and (max-width: 376px) {
+@media (max-width: 376px) {
   .card {
     height: 75%;
     width: 375px;
