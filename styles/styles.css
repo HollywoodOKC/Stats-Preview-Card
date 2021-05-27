@@ -54,10 +54,10 @@ h1 {
   padding: 50px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 375px) {
   .card {
     height: 100px;
-    width: 375px;
+    width: 300px;
   }
 
   .stats {
