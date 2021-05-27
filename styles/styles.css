@@ -15,7 +15,7 @@ body {
 
 @media (min-width: 100px) and (max-width: 375px) {
   .card {
-
+    height: 150px;
   }
 }
 
