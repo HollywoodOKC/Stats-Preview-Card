@@ -13,10 +13,10 @@ body {
   border-radius: 7px 7px 7px 7px;
 }
 
-@media (min-width: 100px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .card {
     height: 100px;
-    width: 300px;
+    width: 200px;
   }
 
   .stats {
