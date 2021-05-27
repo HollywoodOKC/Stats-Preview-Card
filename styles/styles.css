@@ -71,4 +71,10 @@ h1 {
   .container {
     padding: 15px;
   }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+  }
 }
