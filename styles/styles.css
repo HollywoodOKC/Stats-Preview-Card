@@ -15,7 +15,16 @@ body {
 
 @media (min-width: 100px) and (max-width: 375px) {
   .card {
-    height: 150px;
+    height: 100px;
+    width: 300px;
+  }
+
+  .stats {
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    padding: 5px;
   }
 }
 
