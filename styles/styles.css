@@ -6,15 +6,21 @@ body {
 .card {
   height: 400px;
   max-width: 1240px;
-  margin:auto;
+  margin: auto;
   text-align: left;
   background-color: hsl(244, 38%, 16%);
   margin: 50px auto;
   border-radius: 7px 7px 7px 7px;
 }
 
+@media (min-width: 100px) and (max-width: 375px) {
+  .card {
+
+  }
+}
+
 img {
-  float:right;
+  float: right;
   width: 50%;
   height: 100%;
   border-radius: 0px 7px 7px 0px;
@@ -30,6 +36,7 @@ h1 {
 
 #second {
   color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
 }
 
 .numbers {
@@ -37,6 +44,7 @@ h1 {
 }
 
 .stats {
+  font-size: 15px;
   display: grid;
   align-content: space-evenly;
   grid-template-columns: auto auto auto;
@@ -50,58 +58,4 @@ h1 {
 
 .container {
   padding: 50px;
-}
-
-@media (max-width: 375px) {
-
-.card {
-  height: 400px;
-  max-width: 1240px;
-  margin:auto;
-  text-align: left;
-  background-color: hsl(244, 38%, 16%);
-  margin: 50px auto;
-  border-radius: 7px 7px 7px 7px;
-}
-
-img {
-  filter: inherit;
-  filter: opacity(50%);
-  float:right;
-  width: 50%;
-  height: 100%;
-  border-radius: 0px 7px 7px 0px;
-}
-
-#insights {
-  color: hsl(277, 64%, 61%);
-}
-
-h1 {
-  color: white;
-}
-
-#second {
-  color: hsla(0, 0%, 100%, 0.75);
-}
-
-.numbers {
-  color: hsl(0, 0%, 100%);
-}
-
-.stats {
-  display: grid;
-  align-content: space-evenly;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
-}
-
-.stats > div {
-  color: hsla(0, 0%, 100%, 0.6);
-}
-
-.container {
-  padding: 50px;
-}
 }
