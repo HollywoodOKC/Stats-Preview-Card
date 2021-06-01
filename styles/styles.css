@@ -71,7 +71,7 @@ h1 {
   .stats {
     display: grib;
     align-content: center;
-    grid-column: auto;
+    grid-column: inherit;
     padding: 1px;
   }
 
