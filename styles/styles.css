@@ -63,9 +63,13 @@ h1 {
   }
 
   img {
-    float:inline-start;
+    float: inline-start;
     width: 100%;
     height: 25%;
+  }
+
+  p {
+    text-align: center;
   }
 
   .stats {
