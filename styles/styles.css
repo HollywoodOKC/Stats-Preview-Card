@@ -59,17 +59,13 @@ h1 {
     height: 75%;
     width: 375px;
     margin: auto;
-    text-align: end;
+    text-align: center;
   }
 
   img {
     float: inline-start;
     width: 100%;
     height: 25%;
-  }
-
-  p {
-    text-align: center;
   }
 
   .stats {
