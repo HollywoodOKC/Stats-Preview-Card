@@ -69,10 +69,8 @@ h1 {
   }
 
   .stats {
-    display: grid;
-    align-content: space-evenly;
-    grid-template-columns: auto auto auto;
-    grid-gap: 5px;
+    display: flexbox;
+    flex-direction: column;
     padding: 1px;
   }
 
