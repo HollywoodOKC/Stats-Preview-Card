@@ -69,9 +69,9 @@ h1 {
   }
 
   .stats {
-    display: flexbox;
-    flex-wrap: wrap;
-    flex-direction: column;
+    display: grib;
+    align-content: center;
+    grid-column: auto;
     padding: 1px;
   }
 
