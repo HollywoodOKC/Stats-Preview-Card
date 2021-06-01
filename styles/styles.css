@@ -70,6 +70,7 @@ h1 {
 
   .stats {
     display: flexbox;
+    flex-wrap: wrap;
     flex-direction: column;
     padding: 1px;
   }
