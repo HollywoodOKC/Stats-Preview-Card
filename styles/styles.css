@@ -71,7 +71,7 @@ h1 {
   .stats {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 1px;
   }
 
