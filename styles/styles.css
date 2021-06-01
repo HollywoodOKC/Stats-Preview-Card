@@ -69,7 +69,7 @@ h1 {
   }
 
   .stats {
-    display: grib;
+    display: grid;
     align-content: center;
     grid-column: inherit;
     padding: 1px;
