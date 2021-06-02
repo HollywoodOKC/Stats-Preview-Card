@@ -36,7 +36,7 @@ h1 {
   color: hsl(0, 0%, 100%);
 }
 
-.stats {
+#stats {
   font-size: 15px;
   display: grid;
   align-content: space-evenly;
@@ -45,7 +45,7 @@ h1 {
   padding: 10px;
 }
 
-.stats > div {
+#stats > div {
   color: hsla(0, 0%, 100%, 0.6);
 }
 
