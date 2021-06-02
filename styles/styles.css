@@ -70,7 +70,7 @@ h1 {
     margin-bottom: 30px;
   }
 
-  .stats {
+  #stats {
     display: flex;
     flex-direction: column;
     justify-content: center;
