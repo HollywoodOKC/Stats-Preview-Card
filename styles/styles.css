@@ -59,6 +59,7 @@ h1 {
     width: auto;
     margin: auto;
     text-align: center;
+    border-radius: 7px 7px 7px 7px;
   }
 
   img {
